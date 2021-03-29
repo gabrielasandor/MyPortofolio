@@ -10,10 +10,10 @@ html {
 }
 
 .nav-list {
-   z-index: 1;
-   position: fixed;
-   top: 0;
-   width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #home {
@@ -44,11 +44,11 @@ ul {
   }
   
   .hcontainer {
-    display: flex;
-    justify-content: space-between;
-    height:750px;
-    background-color: rgb(204, 136, 119);
-    color: white;
+   display: flex;
+   justify-content: space-between;
+   height:750px;
+   background-color: rgb(204, 136, 119);
+   color: white;
   }
 
 .hello {
@@ -76,8 +76,8 @@ ul {
   opacity: 0.8;
 }
 
-
 #about  {
+  width: 90%;
   display: flex;
 	flex-direction: row;
   justify-content: space-around;
@@ -85,8 +85,8 @@ ul {
   box-shadow: rgb(137, 180, 218);
   background-color: white ;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	margin-top: 30px ;
-	padding: 20px 20px;
+	margin: 40px 50px 20px  50px;
+	padding: 20px;
   
 }
 
@@ -125,14 +125,12 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background-color:white;
   width: 30%;
- 
 }
 
 #services h1 {
   font-size: 40px  ;
-  padding:  80px 0px  30px 0px ;
+  padding:  30px 0px  30px 0px ;
 }
-
 
 .services-img {
  border-radius: 70px;
@@ -141,11 +139,9 @@ ul {
  margin: 35px;
 }
 
-
  .skills {
   position: relative;
   margin: 10px 10px  20px 10px;
- 
  }
 
 .container .skills h3 {
@@ -177,15 +173,13 @@ ul {
 .ed h4 {
   text-align: start;
   margin: 30px;
-  
 }
 
 .ed h5 {
   text-align: start;
-  margin: 10px 10px 100px 30px;
+  margin: 10px 10px 80px 30px;
   font-size: 15px;
 }
-
 
 #projects {
   color: aliceblue;
@@ -197,9 +191,9 @@ ul {
  
 }
 
-#projects h1 {
+.h1-sty {
   color: black;
-  margin: 90px 50px 50px 50px; ;
+  margin: 70px 50px 30px 50px; 
   font-size: 40px;
   display: flex;
   justify-content: center;
@@ -208,9 +202,10 @@ ul {
 .grid-projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 100px 30px;
   margin: 20px;
   align-items: stretch;
+  
 }
 
 .grid-projects  article {
@@ -222,7 +217,6 @@ ul {
 .grid-projects img {
   height: 320px;
   width: 100%;
- 
 }
 
 .grid-projects .text-projects {
@@ -242,10 +236,7 @@ ul {
   cursor: pointer;
 }
 
-
-
 #contact {
-
   height: 400px;
   width: 100%;
   background-color: #070000;
@@ -253,7 +244,6 @@ ul {
   box-sizing: border-box;
   padding: 60px 0px;
 }
-
 
 .contact-h1 {
   text-align: center;
@@ -265,20 +255,19 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 70px;
- 
-  
+  margin-top: 70px; 
 }
 
 .icon{
   display: flex;
   flex-direction: row;
   margin: 60px;
-
 }
 
-.icon p{
-  margin: 20px;
+.icon-style{
+  margin: 10px;
+  color: rgb(213, 218, 223); 
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1100px) {
@@ -286,13 +275,11 @@ ul {
 
     height:750px;
     width: 1100px;
-  
   }
 
   .hello h1 {
     font-size: 30px;
     margin: 10px;
-   
   }
   .hello h2 {
     margin: 20px;
@@ -305,6 +292,9 @@ ul {
   #projectsandjs {
     width: 1100px;
  }
+ .grid-projects {
+  grid-gap: 20px 30px;
+}
 
  #about {
   width: 1000px;
@@ -313,9 +303,7 @@ ul {
 #services h1{
   margin-top: 50px ;
  }
-
 }
-
 
 @media screen and (max-width: 680px) {
 
