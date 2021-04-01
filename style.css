@@ -15,10 +15,6 @@ html {
   width: 100%;
 }
 
-#home {
-  width: 100%;
-}
-
 ul {
     width: 100%;
     list-style-type: none;
@@ -42,14 +38,16 @@ ul {
   li a:hover:not(.active) {
     background-color: rgb(136, 138, 141);
   }
-  
-  .hcontainer {
+
+  #home {
+    width: 100%;
     background-image: url("https://images.unsplash.com/photo-1559325280-e31138f59e10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    text-align: center;
     height:720px;
     color: white;
     margin-bottom: 30px;
@@ -172,12 +170,12 @@ ul {
   background-image: linear-gradient(to right, rgb(48, 106, 182) , rgb(217, 138, 241));   
 }
  
-.ed h4 {
+.education h4 {
   text-align: start;
   margin: 30px;
 }
 
-.ed h5 {
+.education h5 {
   text-align: start;
   margin: 10px 10px 80px 30px;
   font-size: 15px;
@@ -273,7 +271,7 @@ ul {
 }
 
 @media screen and (max-width: 1100px) {
-  .hcontainer {
+  #home {
 
     height:750px;
     width: 1100px;
@@ -322,7 +320,7 @@ ul {
 
     #home {
       margin-top: 300px;
-      width: 1000px;
+      width: 1100px;
     }
    
     #projectsandjs {
